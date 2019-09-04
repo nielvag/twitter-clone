@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../db_config');
 const mongoosePaginate = require('mongoose-paginate');
 
 const TweetSchema = new mongoose.Schema({
